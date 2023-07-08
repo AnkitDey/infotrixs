@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/edcf7074c6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left">Ankit's Portfolio</div>
+          <div class="right">
+            <ul id="sidemenu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#Contact">Contact Info</a></li>
+              <i class="fa-solid fa-bars"></i>
+              <i class="fa-solid fa-xmark"></i>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <main>
+        <section class="firstsection" id="Home">
+            <div class="leftsection">Hi, My name is <span class="name">Ankit </span> <div>and i am a passionate</div>
+            <span id="element"></span>
+        </div>
+            <div class="rightsection" id="Pic">
+                <img src="photo1.png.png" alt="">
+            </div>
+        </section>
+  <!-- <hr>--> 
+       <!-- <section class="secondsection">
+            <small class="text-gray">What i have done before</small>
+            <h1>Work Experience</h1>
+        </section>-->
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Frontend Developer','Web Designer','Graphic Designer','Video Editor'],
+          typeSpeed: 40,
+        });
+      </script>
+                     <!--ABOUT-->
+                     <div id="about">
+                        <div class="container">
+                            <div class="row">
+                                <div class="about-col-1">
+                                    <img src="image2.png.jpeg" alt="">
+                                </div>
+                                <div class="about-col-2">
+                                    <h1 class="sub-title">About Me</h1>
+                                    <p>Hi! My name is Ankit Dey .I am an aspiring full-stack developer. Pursuing B.tech in Electronics And Communication Engineering (ECE) form AOT(Academy Of Technology) under MAKAUT and have secure 83.75% till 7th semester .Strong in design and integration with intuitive problem-solving skills. Proficient in JAVA,C, C++,HTML,CSS,JAVASCRIPT, and SQL. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.</p>
+                                    <div class="tab-titles">
+                                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                                        <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                                        
+                                       
+                                       
+        
+
+                                        <div id="tab-contents" class="tab-contents">Skills</div>
+                                        <div id="tab-contents" class="tab-contents">Experience</div>
+                                        <div id="tab-contents" class="tab-contents">Education</div>
+                                    </div>
+                                    <div class="tab-contents active-tab" id="skills">
+                                        <ul>
+                                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                            <li><span>Web Development</span><br>Web App Development</li>
+                                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-contents" id="experience">
+                                        <ul>
+                                            <li><span>2022 (March-October)</span><br>Salesforce Developer Training</li>
+                                            <li><span>2023 - Current</span><br>Frontend Development</li>
+                                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-contents" id="education">
+                                        <ul>
+                                            <li><span>2016 - 2017</span><br>Secondary Education from Ariadaha Kalachand High School </li>
+                                            <li><span>2018 - 2019</span><br> higher Secondary Education from Ariadaha Kalachand High School</li>
+                                            <li><span>2019 - 2023</span><br>B.Tech from Academy of Technology</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <!--------------------------------service--------------------->
+                     <div id="services">
+                        <div class="container">
+                            <h1 class="sub-title">My Services</h1>
+                            <div class="services-list">
+                                <div>
+                                    <i class="fa-solid fa-code"></i>
+                                    <h2>Web Design</h2>
+                                    <p>A website design brief outlines the web design process, requirements, and timelines. Its purpose is to provide both parties with a clear understanding of what’s expected in terms of project workflow, deliverables, and post-launch services.</p>
+                                    <a href="#">Learn more</a>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-crop-simple"></i>
+                                    <h2>UI/UX Design</h2>
+                                    <p>In a nutshell, a UX design brief is a concise document that aims at describing your design project. The ultimate UX brief’s value is to ensure that both the client and the designers are on the same page when it comes to the project’s goals, its key requirements, restraints, and opportunities.</p>
+                                    <a href="#">Learn more</a>
+                                </div>
+                                <div>
+                                    <i class="fa-brands fa-app-store"></i>
+                                    <h2>App Design</h2>
+                                    <p>A typical brief will include an overview of your brand, the value of the app for users, a project budget and timeframe, target market research, mobile technology requirements, the platform and app functionalities as well as existing comparisons or competitors.</p>
+                                    <a href="#">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <!--------------------portfolio--------------------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.png" alt="">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you the talented pepple around the world. Download it from play store</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.png" alt="">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>This app is a music, audio and video streaming service.Users can listen to existing playlists.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-3.png" alt="">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>A shopping app allows customers to browse and buy products or services from a retailer or service provider.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!---------------------------------------------contact------------------------------------------------->
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i> <span>Email - </span> ankitdey404@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> <span>Phone - </span> 91+8910995141</p>
+                        <p><a href=""><i class="fa-brands fa-square-whatsapp"></i></a> <span>Whatsapp - </span> 91+7059827275</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="Ankit CV.pdf" target="_blank" download  class="btn btn2">Download CV</a>   
+                    </div>
+              <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © <i class="fa-solid fa-heart"></i> Ankit Dey. All Right Reserved </p>
+                
+            </div>
+        </div>
+  </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Frontend Developer','Web Designer','Graphic Designer','Video Editor'],
+          typeSpeed: 40,
+        });
+    </script>
+     <script>
+                      var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwjx8SYQcUo5WimtvoiSw4wP3S4cuUKb1e6xba_h8WLBS26hrTb32ffihAxZQoFzFd9/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message send successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+                
+            
+                
+        
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const hamburger = document.querySelector('.hamburger');
+      const sideMenu = document.querySelector('#sidemenu');
+  
+      hamburger.addEventListener('click', function() {
+        hamburger.classList.toggle('active');
+        sideMenu.classList.toggle('show');
+      });
+    });
+  </script>
+</body>
+</html>
